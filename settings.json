@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome",
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.biome": "explicit" 
+    }
+}
+
+/* 
+This configuration is for biome to work only in the local project
+you have to insert this code in: Preferences: Open Workspace Settings (JSON)
+
+Don't forget to download the "biome" extension
+/*
